@@ -3,7 +3,7 @@ void main() {
 
   String variable="Hello";
 
-  print(variable?.length??1);
+  print(variable.length??1);
 
 // doubleVariable = 20.5;
 // print(doubleVariable);
