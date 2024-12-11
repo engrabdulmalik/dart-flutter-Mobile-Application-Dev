@@ -19,10 +19,9 @@ void main() {
 
   switch (marks) {
     case "eighty" when marks.length <= 40:
-
       print("You passed with flying colors");
-   
-    case 0:
+
+    case "eighty_one":
       print("You failed");
     default:
       print("Incomplete Grade");
